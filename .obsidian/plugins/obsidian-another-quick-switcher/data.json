@@ -1,0 +1,896 @@
+{
+  "searchDelayMilliSeconds": 0,
+  "maxNumberOfSuggestions": 50,
+  "normalizeAccentsAndDiacritics": false,
+  "useSelectionWordsAsDefaultInputQuery": false,
+  "preventDuplicateTabs": false,
+  "showDirectory": false,
+  "showDirectoryAtNewLine": false,
+  "showFullPathOfDirectory": true,
+  "showAliasesOnTop": true,
+  "displayAliaseAsTitle": false,
+  "displayDescriptionBelowTitle": true,
+  "showExistingFilesOnly": true,
+  "hideGutterIcons": true,
+  "hideHotkeyGuides": false,
+  "userAltInsteadOfModForQuickResultSelection": false,
+  "hotkeys": {
+    "main": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "clear input": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "d"
+        }
+      ],
+      "replace input": [
+        {
+          "modifiers": [],
+          "key": "Tab"
+        }
+      ],
+      "open": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new tab": [
+        {
+          "modifiers": [],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new pane (horizontal)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "-",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in new pane (vertical)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "i",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in new window": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in popup": [],
+      "open in new tab in background": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open all in new tabs": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift",
+            "Alt"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ],
+      "create": [
+        {
+          "modifiers": [
+            "Shift"
+          ],
+          "key": "Enter"
+        }
+      ],
+      "create in new tab": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "Enter",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "create in new window": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "o"
+        }
+      ],
+      "create in new popup": [],
+      "open in default app": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "show in system explorer": [],
+      "open in google": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "g"
+        }
+      ],
+      "open first URL": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "]"
+        }
+      ],
+      "insert to editor": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "Enter"
+        }
+      ],
+      "insert to editor in background": [],
+      "insert all to editor": [
+        {
+          "modifiers": [
+            "Alt",
+            "Shift"
+          ],
+          "key": "Enter"
+        }
+      ],
+      "show backlinks": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "h"
+        }
+      ],
+      "show links": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "l"
+        }
+      ],
+      "show all results": [
+        {
+          "modifiers": [
+            "Shift",
+            "Alt"
+          ],
+          "key": "a"
+        }
+      ],
+      "navigate forward": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "ArrowRight"
+        }
+      ],
+      "navigate back": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "ArrowLeft"
+        }
+      ],
+      "close if opened": [],
+      "copy file vault path": [],
+      "copy absolute file path": [],
+      "launch grep": [],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "folder": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in default app": [],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "move": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p"
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n"
+        }
+      ],
+      "open in default app": [],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "header": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p"
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n"
+        }
+      ],
+      "clear input": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "d"
+        }
+      ],
+      "move to next hit": [
+        {
+          "modifiers": [],
+          "key": "Tab"
+        }
+      ],
+      "move to previous hit": [
+        {
+          "modifiers": [
+            "Shift"
+          ],
+          "key": "Tab"
+        }
+      ],
+      "toggle auto preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ],
+      "insert all to editor": [
+        {
+          "modifiers": [
+            "Alt",
+            "Shift"
+          ],
+          "key": "Enter"
+        }
+      ],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "backlink": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new tab": [
+        {
+          "modifiers": [],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new pane (horizontal)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "-",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in new pane (vertical)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "i",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in new window": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open in popup": [],
+      "open in new tab in background": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "open all in new tabs": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift",
+            "Alt"
+          ],
+          "key": "o",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "show all results": [
+        {
+          "modifiers": [
+            "Shift",
+            "Alt"
+          ],
+          "key": "a"
+        }
+      ],
+      "preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "link": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p"
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n"
+        }
+      ],
+      "open": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new tab": [
+        {
+          "modifiers": [],
+          "key": "Enter",
+          "hideHotkeyGuide": false
+        }
+      ],
+      "open in new pane (horizontal)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "-"
+        }
+      ],
+      "open in new pane (vertical)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "i"
+        }
+      ],
+      "open in new window": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "o"
+        }
+      ],
+      "open in popup": [],
+      "open in new tab in background": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "o"
+        }
+      ],
+      "open all in new tabs": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift",
+            "Alt"
+          ],
+          "key": "o"
+        }
+      ],
+      "show all results": [
+        {
+          "modifiers": [
+            "Shift",
+            "Alt"
+          ],
+          "key": "a"
+        }
+      ],
+      "preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "in-file": {
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "show all results": [
+        {
+          "modifiers": [
+            "Shift",
+            "Alt"
+          ],
+          "key": "a"
+        }
+      ],
+      "toggle auto preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ",",
+          "hideHotkeyGuide": true
+        }
+      ],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    },
+    "grep": {
+      "search": [
+        {
+          "modifiers": [],
+          "key": "Tab"
+        }
+      ],
+      "up": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "p"
+        }
+      ],
+      "down": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "n"
+        }
+      ],
+      "clear input": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "d"
+        }
+      ],
+      "clear path": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "d"
+        }
+      ],
+      "set ./ to path": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "c"
+        }
+      ],
+      "toggle input": [],
+      "open": [
+        {
+          "modifiers": [],
+          "key": "Enter"
+        }
+      ],
+      "open in new tab": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "Enter"
+        }
+      ],
+      "open in new pane (horizontal)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "-"
+        }
+      ],
+      "open in new pane (vertical)": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "i"
+        }
+      ],
+      "open in new window": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": "o"
+        }
+      ],
+      "open in popup": [],
+      "open in new tab in background": [
+        {
+          "modifiers": [
+            "Alt"
+          ],
+          "key": "o"
+        }
+      ],
+      "open all in new tabs": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift",
+            "Alt"
+          ],
+          "key": "o"
+        }
+      ],
+      "preview": [
+        {
+          "modifiers": [
+            "Mod"
+          ],
+          "key": ","
+        }
+      ],
+      "dismiss": [
+        {
+          "modifiers": [],
+          "key": "Escape"
+        }
+      ]
+    }
+  },
+  "searchCommands": [
+    {
+      "name": "File name search",
+      "searchBy": {
+        "tag": true,
+        "link": true,
+        "header": true,
+        "property": true
+      },
+      "keysOfPropertyToSearch": [
+        "description",
+        "title"
+      ],
+      "searchTarget": "file",
+      "allowFuzzySearchForSearchTarget": true,
+      "minFuzzyMatchScore": 0.5,
+      "targetExtensions": [],
+      "includeCurrentFile": false,
+      "floating": true,
+      "showFrontMatter": false,
+      "excludeFrontMatterKeys": [
+        "created",
+        "updated",
+        "title",
+        "url",
+        "pagetype",
+        "cssclass",
+        "publish"
+      ],
+      "defaultInput": "",
+      "restoreLastInput": true,
+      "commandPrefix": ":f ",
+      "sortPriorities": [
+        "Perfect word match",
+        "Prefix name match",
+        "Fuzzy name match",
+        "Name match",
+        "Star",
+        ".md",
+        "Last opened",
+        "Last modified",
+        "Alphabetical"
+      ],
+      "includePrefixPathPatterns": [],
+      "excludePrefixPathPatterns": [],
+      "expand": false
+    },
+    {
+      "name": "Link search",
+      "searchBy": {
+        "tag": false,
+        "link": false,
+        "header": false,
+        "property": false
+      },
+      "keysOfPropertyToSearch": [],
+      "searchTarget": "link",
+      "allowFuzzySearchForSearchTarget": true,
+      "minFuzzyMatchScore": 0.5,
+      "targetExtensions": [],
+      "includeCurrentFile": false,
+      "floating": true,
+      "showFrontMatter": false,
+      "excludeFrontMatterKeys": [
+        "aliases",
+        "alias",
+        "tag",
+        "tags",
+        "cssclass",
+        "publish"
+      ],
+      "defaultInput": "",
+      "restoreLastInput": true,
+      "commandPrefix": "",
+      "sortPriorities": [
+        "Perfect word match",
+        "Prefix name match",
+        "Fuzzy name match",
+        "Name match",
+        "Star",
+        ".md",
+        "Last opened",
+        "Last modified",
+        "Alphabetical"
+      ],
+      "includePrefixPathPatterns": [],
+      "excludePrefixPathPatterns": [],
+      "expand": false
+    },
+    {
+      "name": "2 hop link search",
+      "searchBy": {
+        "tag": true,
+        "link": false,
+        "header": false,
+        "property": false
+      },
+      "keysOfPropertyToSearch": [],
+      "searchTarget": "2-hop-link",
+      "allowFuzzySearchForSearchTarget": false,
+      "minFuzzyMatchScore": 0.5,
+      "targetExtensions": [],
+      "includeCurrentFile": false,
+      "floating": false,
+      "showFrontMatter": false,
+      "excludeFrontMatterKeys": [
+        "aliases",
+        "alias",
+        "tag",
+        "tags",
+        "cssclass",
+        "publish"
+      ],
+      "defaultInput": "",
+      "restoreLastInput": false,
+      "commandPrefix": "",
+      "sortPriorities": [
+        "Perfect word match",
+        "Prefix name match",
+        "Fuzzy name match",
+        "Name match",
+        "Star",
+        ".md",
+        "Last opened",
+        "Last modified",
+        "Alphabetical"
+      ],
+      "includePrefixPathPatterns": [],
+      "excludePrefixPathPatterns": [],
+      "expand": true
+    }
+  ],
+  "searchesExcludePrefix": "-",
+  "searchesAutoAliasTransform": {
+    "enabled": false,
+    "aliasPattern": "",
+    "aliasFormat": ""
+  },
+  "autoPreviewInFloatingHeaderSearch": true,
+  "backlinkExcludePrefixPathPatterns": [],
+  "inFileContextLines": 2,
+  "autoPreviewInFloatingInFileSearch": true,
+  "inFileMaxDisplayLengthAroundMatchedWord": 64,
+  "ripgrepCommand": "rg",
+  "grepSearchDelayMilliSeconds": 0,
+  "grepMinQueryLength": 1,
+  "grepExtensions": [
+    "md"
+  ],
+  "maxDisplayLengthAroundMatchedWord": 64,
+  "includeFilenameInGrepSearch": false,
+  "defaultGrepFolder": "",
+  "autoPreviewInGrepSearch": false,
+  "grepAutoPreviewDelayMilliSeconds": 300,
+  "autoPreviewInBacklinkSearch": false,
+  "backlinkAutoPreviewDelayMilliSeconds": 300,
+  "moveFileExcludePrefixPathPatterns": [],
+  "moveFolderSortPriority": "Recently used",
+  "moveFileRecentlyUsedFilePath": "",
+  "moveFileMaxRecentlyUsedFolders": 10,
+  "showLogAboutPerformanceInConsole": false,
+  "showFuzzyMatchScore": false
+}

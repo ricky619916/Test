@@ -1,0 +1,32 @@
+{
+  "accentColor": "#7e6d9c",
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "translucency": false,
+  "interfaceFontFamily": "SF Pro Display",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "callout-margin-delete",
+    "マルチ",
+    "Basis",
+    "multi-column",
+    "Gummy Callout",
+    "silhouette",
+    "MCL Gallery Cards",
+    "SheetsPlus - Darkmode.css",
+    "otamesu",
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "imagesize",
+    "Image styling - Zoom image",
+    "Command palette styling 01",
+    "colorful-inline-code",
+    "callout-margin"
+  ],
+  "textFontFamily": "SF Pro Text",
+  "monospaceFontFamily": "UDEV Gothic JPDOC",
+  "baseFontSizeAction": false,
+  "nativeMenus": true,
+  "showRibbon": true
+}
